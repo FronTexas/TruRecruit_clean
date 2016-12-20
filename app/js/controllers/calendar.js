@@ -2,7 +2,7 @@
  * calendarDemoApp - 0.1.3
  */
 
-app.controller('FullcalendarCtrl', ['$scope', function($scope) {
+app.controller('FullcalendarCtrl', ['$scope','eventService', function($scope,eventService) {
 
     var date = new Date();
     var d = date.getDate();
@@ -18,9 +18,7 @@ app.controller('FullcalendarCtrl', ['$scope', function($scope) {
 
     /* event source that contains custom events on the scope */
 
-    $scope.events = [
-
-    ];
+    $scope.events = eventService.getEvents()
 
     //$scope.events = [
     //  {title:'All Day Event', start: new Date(y, m, 1), className: ['b-l b-2x b-info'], location:'New York', info:'This a all day event that will start from 9:00 am to 9:00 pm, have fun!'},
@@ -47,6 +45,7 @@ app.controller('FullcalendarCtrl', ['$scope', function($scope) {
             start: date,
             className: ['b-l b-2x b-info']
           });
+          eventService.setEvents($scope.events)
       }
       $scope.lastClickTime = time;
     };
@@ -105,7 +104,10 @@ app.controller('FullcalendarCtrl', ['$scope', function($scope) {
         start: new Date(y, m, d),
         className: ['b-l b-2x b-info']
       });
+        console.log('In calendar.js, events = ' + $scope.events)
+        eventService.setEvents($scope.events)
     };
+
 
     /* remove event */
     $scope.remove = function(index) {
@@ -123,5 +125,8 @@ app.controller('FullcalendarCtrl', ['$scope', function($scope) {
 
     /* event sources array*/
     $scope.eventSources = [$scope.events];
+
+
+
 }]);
 /* EOF */
