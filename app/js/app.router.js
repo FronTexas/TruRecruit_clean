@@ -25,6 +25,17 @@ angular.module('app')
                             ]
                         }
                     })
+                    .state('access.register', {
+                        url: '/register',
+                        templateUrl: 'partials/ui-register.html',
+                        resolve: {
+                            deps: ['uiLoad',
+                                function(uiLoad) {
+                                    return uiLoad.load(['js/controllers/register.js','../bower_components/font-awesome/css/font-awesome.css']);
+                                }
+                            ]
+                        }
+                    })
                     .state('app', {
                         abstract: true,
                         url: '/app',
@@ -42,17 +53,6 @@ angular.module('app')
                                 function(uiLoad) {
                                     return uiLoad.load(['js/controllers/login.js',
                                         '../bower_components/font-awesome/css/font-awesome.css']);
-                                }
-                            ]
-                        }
-                    })
-                    .state('access.register', {
-                        url: '/register',
-                        templateUrl: 'partials/ui-register.html',
-                        resolve: {
-                            deps: ['uiLoad',
-                                function(uiLoad) {
-                                    return uiLoad.load(['js/controllers/register.js','../bower_components/font-awesome/css/font-awesome.css']);
                                 }
                             ]
                         }
