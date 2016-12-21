@@ -2872,7 +2872,7 @@ slider span.pointer.active:after {
 }
 
 .btn.btn-accent {
-    background: #FF6E40;
+    background: #00BC96;
     color: #ffffff;
 }
 
@@ -3006,7 +3006,7 @@ slider span.pointer.active:after {
 .btn-accent:hover,
 .btn-accent:active,
 .btn-accent:focus {
-    background: #FF5722;
+    background: #00BC96;
     color: #ffffff;
 }
 
@@ -6106,8 +6106,7 @@ table.dataTable.no-footer {
 }
 
 body .login_page {
-    background-color: #673AB7;
-    background-image: url('../img/bg3.png');
+    background: url(https://unsplash.it/1920/1080?image=4) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     height: 100%;
