@@ -9643,9 +9643,12 @@ border-left: 3px solid transparent;
 ----------------------------------------------------------*/
 
 .page-topbar .logo-area {
-    background-image: url('../img/logo.png');
+    background-image: url('http://imgh.us/FullFinalLogo.png');
+    background-size: 150px;
     background-repeat: no-repeat;
+    background-position: center;
     text-align: center;
+
 }
 
 .page-topbar.sidebar_shift .logo-area {
