@@ -5,8 +5,8 @@
 
 
 
-body{
-  height: 100%;
+.landing-page{
+  height: 750px;
   background: url(https://unsplash.it/1920/1080?image=4) no-repeat;
 }
 
