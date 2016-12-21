@@ -31,14 +31,14 @@ body{
 }
 
 .trurecruit-logo{
-  width: 300px;
+  width: 150px;
 }
 
 .login-or-signup
 {
   float: right;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 13px;
   vertical-align: middle;
   height: 100%;
   line-height: 100%;
@@ -78,7 +78,7 @@ body{
 {
   font-family: 'Open Sans';
   font-weight: 800;
-  font-size:70px;
+  font-size:50px;
   width: 720px;
   height: 100px;
   text-transform: uppercase;
@@ -89,8 +89,8 @@ body{
 {
   width: 720px;
   line-height: 25px;
-  margin: 200px auto 0;
-  font-size: 25px;
+  margin: 30px auto 0;
+  font-size: 15px;
   line-height: 2;
 }
 
@@ -99,7 +99,7 @@ body{
   width: 100%;
   position: fixed;
   bottom: 0;
-  font-size: 30px;
+  font-size: 15px;
 }
 
 
@@ -115,17 +115,20 @@ body{
   padding: 1em;
   font-weight: 600;
   box-shadow: 1px -1px 5px rgba(0, 0, 0, 0.6);
-  margin-left: -2px;
   margin-right: -5px;
 }
 
-.employer-button:hover, .candidate-button:hover
+.employer-button:hover
 {
   box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.3);
   transition: box-shadow 0.3s ease-in-out;
 }
 
-
+.candidate-button:hover
+{
+  box-shadow: 10px -5px 5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease-in-out;
+}
 
 
 
