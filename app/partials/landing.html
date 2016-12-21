@@ -9,7 +9,7 @@
           <a href="#" class="login" style="color:#FFF; text-decoration: none;">
             <span>Log in</span>
         </a>
-        <a href="#" class="signup" style="color:#FFF; text-decoration: none;">
+        <a ng-click="goToState('access.register')" href="#" class="signup" style="color:#FFF; text-decoration: none;">
             <span>Sign Up</span>
         </a>
     </div>
@@ -23,10 +23,10 @@
 </div>
 
 <div class="bottom-nav-bar">
-    <a href = "#" style="color:#FFF; text-decoration: none;"class="candidate-button">
+    <a ng-click="goToState('access.register')" href = "#" style="color:#FFF; text-decoration: none;"class="candidate-button">
       Candidate
   </a>
-  <a href = "#" style="color:#FFF; text-decoration: none;" class="employer-button">
+  <a ng-click="goToState('access.register')" href = "#" style="color:#FFF; text-decoration: none;" class="employer-button">
       Employer
   </a>
 </div>
