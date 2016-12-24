@@ -115,6 +115,7 @@ body {
     font-style: normal;
     font-weight: normal;
     min-height: 100%;
+    background: #F5F5F5!important;
 }
 
 body.boxed {
@@ -962,7 +963,7 @@ a:focus {
 }
 
 .page-topbar .quick-area .slantit .info-menu {
-    background-color: #FF6E40;
+    background-color: #37474F;
     padding: 0 0px 0 0px;
 }
 
@@ -9652,7 +9653,7 @@ border-left: 3px solid transparent;
 }
 
 .page-topbar.sidebar_shift .logo-area {
-    background-image: url('https://s30.postimg.org/tjg9d2j9t/profile_picture.png');
+    background-image: url('https://s27.postimg.org/3ln4333kz/profile_picturewhite.png');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left 10px;
