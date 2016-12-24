@@ -1,0 +1,115 @@
+
+/*HOVER CSS STARTS*/
+
+.hvr-shadow {
+    display: inline-block;
+    /*vertical-align: middle;*/
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+}
+
+.hvr-shadow:hover, .hvr-shadow:focus, .hvr-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+.hvr-box-shadow-outset {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.hvr-box-shadow-outset:hover, .hvr-box-shadow-outset:focus, .hvr-box-shadow-outset:active {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+/*HOVER CSS ENDS*/
+
+.personal-info-box
+{
+	display: inline-block;
+	width: 300px;
+	height: auto;
+	box-shadow: 1px 1px 5px #D0D6E1;
+	border-radius: 5px;
+	background: #FFF;
+	margin-left: 5%;
+}
+
+.rsm-container
+{
+	padding:20px;
+}
+
+.upload-picture-area
+{
+	display: block;
+}
+
+.profpic-placeholder{
+	display: inherit;
+	width: 100px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+
+a:focus
+{
+	color:#FFF;
+}
+
+a:hover
+{
+	color:#FFF!important;
+}
+
+.upload-profpic-button
+{
+	display: table!important;
+	border-radius: 10px;
+	background: #00D4AA;
+	padding: 10px;
+	color: #FFF;
+  	text-decoration: none!important;
+  	margin: 10px auto;
+  	/*font-weight: 500;*/
+}
+
+.add-links-button
+{
+	display: table!important;
+	border-radius: 10px;
+	background: #3498db;
+	padding: 10px;
+	color: #FFF;
+  	text-decoration: none!important;
+  	margin: 10px auto;
+}
+
+.upload-resume-box
+{
+	display: inline-block;
+	width: 500px;
+	height: 700px;
+	box-shadow: -1px 1px 7px #D0D6E1;
+	border-radius: 10px;
+
+}
+
+

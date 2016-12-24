@@ -5,7 +5,7 @@ app.controller('RegisterFormController', ['$scope', '$http', '$state', function(
     $scope.user = {};
     $scope.authError = null;
     $scope.register = function() {
-      $state.go('app.dashboard');
+      $state.go('app.resume');
     };
   }])
  ;

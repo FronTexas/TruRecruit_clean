@@ -74,6 +74,18 @@ angular.module('app')
                             ]
                         }
                     })
+                    .state('app.resume', {
+                        url: '/resume',
+                        templateUrl: 'partials/ui-resume.html',
+                        resolve: {
+                            deps: ['$ocLazyLoad', 'uiLoad',
+                                function($ocLazyLoad, uiLoad) {
+                                    // return uiLoad.load(['js/controllers/resume.js',
+                                    //     '../bower_components/font-awesome/css/font-awesome.css']);
+                                }
+                            ]
+                        }
+                    })
                     .state('app.ui', {
                         url: '/ui',
                         template: '<div ui-view class=""></div>'
