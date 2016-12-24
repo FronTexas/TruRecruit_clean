@@ -40,6 +40,14 @@
 
 /*HOVER CSS ENDS*/
 
+
+
+.box-container
+{
+	margin: 0 auto;
+	display: table;
+}
+
 .personal-info-box
 {
 	display: inline-block;
@@ -48,12 +56,14 @@
 	box-shadow: 1px 1px 5px #D0D6E1;
 	border-radius: 5px;
 	background: #FFF;
-	margin-left: 5%;
+	padding: 20px 0 0 0;
+	position: absolute;
+	top: 0;
 }
 
 .rsm-container
 {
-	padding:20px;
+	position: relative;
 }
 
 .upload-picture-area
@@ -105,11 +115,57 @@ a:hover
 .upload-resume-box
 {
 	display: inline-block;
-	width: 500px;
-	height: 700px;
-	box-shadow: -1px 1px 7px #D0D6E1;
+	width: 400px;
+	height: 500px;
+  	box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
 	border-radius: 10px;
+	background: #FFF;
+	margin-left: 290px;
+}
 
+
+
+.upload-resume-button
+{
+	display: table!important;
+	border-radius: 10px;
+	background: #B0BEC5;
+	padding: 10px;
+	color: #FFF;
+  	text-decoration: none!important;
+  	margin: 50% auto 0;
+
+  	/*font-weight: 500;*/
+}
+
+.preview-done-container
+{
+	margin: 0 auto;
+	display: table;
+}
+
+.preview-button
+{
+	border-radius: 10px;
+	background: #00D4AA;
+	padding: 10px;
+	color: #FFF;
+  	text-decoration: none!important;
+  	margin: 10px auto;
+	background: #ED5057;
+	margin-right: 10px;
+}
+
+
+.done-button
+{
+	border-radius: 10px;
+	background: #00D4AA;
+	padding: 10px;
+	color: #FFF;
+  	text-decoration: none!important;
+  	margin: 10px auto;
+	background: #ED5057;
 }
 
 
